@@ -1,6 +1,5 @@
 ---
-- tasks:
-  - name: Creating a text file
-    my_own_namespace.yandex_cloud_elk.my_own_module:
-      path: {{ path }}
-      content: {{ content }}
+- name: Creating a text file
+  my_own_namespace.yandex_cloud_elk.my_own_module:
+    path: "{{ path }}"
+    content: "{{ content }}"
